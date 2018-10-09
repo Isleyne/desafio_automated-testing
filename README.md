@@ -6,17 +6,17 @@ Utilizando framework BDD, cucumber e o restclient para APIs no estilo REST para 
 A utilizacão do JSON Schema para validar a estrutura de dados JSON e o dados da resposta da API.
 
 
-# Dependências
+### Dependências
 Ruby 2.5.0
 
 
-# Instalação do Projeto
+### Instalação do Projeto
 
 ```
   $ bundle install
 ```
 
-# Executar os cenários
+### Executar os cenários
 
 ```$ Default cenários: cucumber```
 
