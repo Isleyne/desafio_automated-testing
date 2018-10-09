@@ -1,0 +1,32 @@
+{
+  "required": [
+    "error",
+    "message",
+    "status_code"
+  ],
+  "properties": {
+    "error": {
+      "type": "string",
+      "default": "",
+      "examples": [
+        "Bad Request"
+      ],
+      "pattern": "^(.*)$"
+    },
+    "message": {
+      "type": "string",
+      "default": "",
+      "examples": [
+        "ValidationError: child \"cpf_data_de_nascimento\" fails because [\"cpf_data_de_nascimento\" with value \"Data verdadeira\" fails to match the required pattern: /^\\d{2}\\/\\d{2}\\/\\d{4}$/]"
+      ],
+      "pattern": "^(.*)$"
+    },
+    "status_code": {
+      "type": "integer",
+      "default": 0,
+      "examples": [
+        400
+      ]
+    }
+  }
+}

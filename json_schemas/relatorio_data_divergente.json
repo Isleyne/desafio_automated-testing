@@ -1,0 +1,31 @@
+{
+  "required": [
+    "result",
+    "status_code"
+  ],
+  "properties": {
+    "result": {
+      "type": "object",
+      "required": [
+        "numero"
+      ],
+      "properties": {
+        "numero": {
+          "type": "string",
+          "default": "",
+          "examples": [
+            "55c4d0ab-1fe9-4148-913c-e4a749b55887"
+          ],
+          "pattern": "^(.*)$"
+        }
+      }
+    },
+    "status_code": {
+      "type": "integer",
+      "default": 0,
+      "examples": [
+        200
+      ]
+    }
+  }
+}

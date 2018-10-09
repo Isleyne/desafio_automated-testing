@@ -1,0 +1,19 @@
+dados_em_branco:
+  cpf_data_de_nascimento:
+  cpf_nome:
+  cpf_numero:
+
+data_diferente:
+  cpf_data_de_nascimento: '28/09/1988'
+  cpf_nome: 'Gabriel Oliveira'
+  cpf_numero: '07614917677'
+
+nome_diferente:
+  cpf_data_de_nascimento: '25/05/1987'
+  cpf_nome: 'Gabriel Oliveira'
+  cpf_numero: '07614917677'
+
+buscar_relatorio:
+  cpf_data_de_nascimento: 'Data verdadeira'
+  cpf_nome: 'Nome verdadeiro'
+  cpf_numero: 'CPF verdadeiro'
