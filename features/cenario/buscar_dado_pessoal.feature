@@ -1,4 +1,4 @@
-Feature: Solicitar novo relatório
+Feature: Solicitar novo relatório pessoal
 
 @dado_branco
   Scenario: Enviar ao menos um parametro para criação do relatorio

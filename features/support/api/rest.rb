@@ -9,8 +9,8 @@ module API
       response = e.response
     end
     puts "\n::POST Request=> URL:#{url}\n Payload:#{payload} \n
-    Headers:#{headers} \n\n POST Response:\n Code:#{response.code}\n
-    Body:#{response.body}\n"
+    Headers: #{headers} \n\n POST Response:\n Code:#{response.code}\n
+    Body: #{response.body}\n"
     response
   end
 end
