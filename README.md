@@ -16,6 +16,6 @@ Ruby 2.5.0
 
 # Executar os cenários
 
-```$Default cenários: cucumber
+```$ Default cenários: cucumber```
 
-$Tag:  cucumber -t @dado_branco```
+```$ Tag:  cucumber -t @dado_branco```
