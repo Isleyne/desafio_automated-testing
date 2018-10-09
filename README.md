@@ -11,6 +11,9 @@ Ruby 2.5.0
 
 
 ### Instalação do Projeto
+```
+git@github.com:Isleyne/desafio_automated-testing.git
+```
 
 ```
   $ bundle install
